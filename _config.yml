@@ -6,5 +6,6 @@ url: http://projectrobotplayground.com
 title: 'Project: Robot Playground'
 author: Allison Thackston
 description: >  
-  'Project: Robot Playground, a curated set of assets for robotic simulation.'
+  'A curated set of assets for robotic simulation.'
 copyright: 'Copyright &copy; 2019 Allison Thackston. All Rights Reserved.'
+google_analytics: 'UA-131243656-2'

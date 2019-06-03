@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html>
 
-{% include head.html %}
+<head>
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type" />
+    <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.title }} </title>
+    <link rel="icon" type="image/png" href="/assets/img/prp_logo_icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Acme|Montserrat|Roboto:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/mystyle.css" type="text/css" />
+</head>
+
+{% if jekyll.environment == 'production' %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.google_analytics }}');
+</script>
+{% endif %}
 
 <body class="page">
 
@@ -11,12 +29,12 @@
 
     </section>
 
-    {% include footer.html %}
+    <footer>
+        <div class="footer-copyright">
+            {{ site.copyright }}
+        </div>
+    </footer>
 
 </body>
-
-{% if jekyll.environment == 'production' %}
-{% include analytics.html %}
-{% endif %}
 
 </html>
