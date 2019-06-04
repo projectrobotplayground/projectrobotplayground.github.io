@@ -134,7 +134,7 @@ footer .footer-copyright {
 .features {
   padding: 10px;
   margin: 0px;
-  background-color: #fe4a49;
+  background-color: #afc97e;
 }
 
 .features ul {
@@ -149,7 +149,9 @@ footer .footer-copyright {
 }
 
 .features li img {
-  width: 150px;
+  height: 150px;
+  padding-top: 30px;
+  margin-top: 20px;
 }
 
 .features li p{
