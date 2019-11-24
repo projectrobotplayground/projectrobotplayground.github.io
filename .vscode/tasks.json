@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "bundle exec jekyll serve",
             "problemMatcher": []
-        }
+        },
         {
             "label": "u: update",
             "type": "shell",
