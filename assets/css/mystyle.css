@@ -54,9 +54,9 @@ h4 {
 
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 2vw;
   color: #797979;
-  line-height: 1em;
+  line-height: 1.25em;
   text-transform: none;
   padding: 2vw;
 }
@@ -78,6 +78,7 @@ img {
   padding: 0px;
   margin-top: auto;
   margin-bottom: auto;
+  height: min-content;
 }
 .header img{
   width: 100%;
@@ -94,7 +95,7 @@ footer {
 
 footer .footer-copyright {
   color: #585858;
-  font-size: 12px;
+  font-size: 1vw;
   text-decoration: none;
   text-align: right;
 }
@@ -104,6 +105,7 @@ footer .footer-copyright {
   padding: 0px;
   margin: 0px;
   background-color: #fe4a49;
+  border-image-width: 0px;
 }
 
 .about h1 {
@@ -116,15 +118,13 @@ footer .footer-copyright {
 
 .about img {
   float: left;
+  vertical-align: top;
 }
 
 .about p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
   color: #ffffff;
   text-decoration: none;
-  letter-spacing: 1px;
-  line-height: 1.25em;
   padding: 4vw;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -146,6 +146,7 @@ footer .footer-copyright {
   display: inline-block;
   padding-right: 10px;
   padding-left: 10px;
+  vertical-align: top;
 }
 
 .features li img {
@@ -156,12 +157,12 @@ footer .footer-copyright {
 
 .features li p{
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
   color: #ffffff;;
   text-decoration: none;
   letter-spacing: 1px;
   line-height: 1em;
   text-transform: none;
+  width: min-content;
 }
 
 /* Sets section */
@@ -194,8 +195,8 @@ footer .footer-copyright {
   padding: 3vw;
   background-color: #ffffff;
   border-radius: 10px;
-  width: 400px;
-  height: 400px;
+  width: 70vw;
+  height: fit-content;
   text-align: center;
   vertical-align: top;
   margin: 20px;
@@ -218,17 +219,40 @@ footer .footer-copyright {
   margin: 0px;
   padding-left: 12vw;
 }
+.subscribe p {
+  font-family: 'Montserrat', sans-serif;
+  /* font-size: 20px; */
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  line-height: 1.25em;
+  padding: 4vw;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 .subscribe input {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: #797979;;
   text-decoration: none;
   letter-spacing: 1px;
   line-height: 2em;
   text-transform: none;
   text-align: left;
-  padding-left: 10px;
+  border: 0px;
+  padding: 10px;
+}
+
+.subscribe button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+  color: #797979;
+  text-decoration: none;
+  letter-spacing: 1px;
+  line-height: 2em;
+  text-transform: none;
+  text-align: left;
 }
 
 .clear {
