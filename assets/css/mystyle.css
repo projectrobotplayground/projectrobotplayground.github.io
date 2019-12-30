@@ -1,4 +1,4 @@
-﻿.page {
+.page {
   margin: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -11,7 +11,7 @@
 h1 {
   font-family: 'Acme', sans-serif;
   font-weight: 500;
-  font-size: 6vw;
+  font-size: 4vw;
   color: #fe4a49;
   text-decoration: none;
   letter-spacing: 0px;
@@ -23,7 +23,7 @@ h1 {
 h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 5vw;
+  font-size: 3vw;
   color: #2ab7ca;
   text-decoration: none;
   text-transform: lowercase;
@@ -34,7 +34,7 @@ h2 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  font-size: 4.5vw;
+  font-size: 2.5vw;
   color: #afc97e;
   text-decoration: none;
   letter-spacing: 1px;
@@ -44,7 +44,7 @@ h3 {
 
 h4 {
   font-family: 'Acme', sans-serif;
-  font-size: 3vw;
+  font-size: 2vw;
   color: #ffa500;
   text-decoration: none;
   letter-spacing: 1px;
@@ -54,11 +54,11 @@ h4 {
 
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: #797979;
   line-height: 1.25em;
   text-transform: none;
-  padding: 2vw;
+  padding: 10px;
 }
 
 a {
@@ -78,10 +78,29 @@ img {
   padding: 0px;
   margin-top: auto;
   margin-bottom: auto;
-  height: min-content;
+  height: 500px;
+  background-image: url("/assets/img/title_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.header-background {
+  background: rgba(255, 255, 255, 0.5);
+  width: 80%;
+  height: 75%;
+  position: relative;
+  margin: auto;
+  top: 15%;
+}
+
 .header img{
-  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  margin: auto;
+  margin-top: -100px;
+  margin-left: -250px;
 }
 
 /* Footer */
@@ -125,9 +144,12 @@ footer .footer-copyright {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   text-decoration: none;
-  padding: 4vw;
+  padding: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
 }
 
 /* Features section */
@@ -150,7 +172,7 @@ footer .footer-copyright {
 }
 
 .features li img {
-  height: 150px;
+  height: 100px;
   padding-top: 30px;
   margin-top: 20px;
 }
@@ -186,7 +208,7 @@ footer .footer-copyright {
 
 .sets ul {
   list-style: none;
-  padding: 5vw;
+  padding: 0px;
   text-align: center;
 }
 
@@ -195,7 +217,7 @@ footer .footer-copyright {
   padding: 3vw;
   background-color: #ffffff;
   border-radius: 10px;
-  width: 70vw;
+  width: 40vw;
   height: fit-content;
   text-align: center;
   vertical-align: top;
@@ -217,7 +239,7 @@ footer .footer-copyright {
   text-align: right;
   text-transform: uppercase;
   margin: 0px;
-  padding-left: 12vw;
+  padding-right: 8vw;
 }
 .subscribe p {
   font-family: 'Montserrat', sans-serif;
